@@ -31,8 +31,12 @@ div {
 #logo {
 	font-size: 50px;
 	line-height: 80px;
-	/*height: 80;*/
 	color: yellow;
+	animation: fadeBlack 7s infinite;
+}
+@keyframes fadeBlack {
+	from {color: yellow;}
+	to {color: black;}
 }
 
 /*aside*/
