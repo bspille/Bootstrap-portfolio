@@ -32,11 +32,16 @@ div {
 	font-size: 50px;
 	line-height: 80px;
 	color: yellow;
-	animation: fadeBlack 7s infinite;
+	/*animation: fadeBlack 7s ;*/
+	animation: fadeyellow 7s ;
 }
 @keyframes fadeBlack {
 	from {color: yellow;}
 	to {color: black;}
+}
+@keyframes fadeyellow {
+	from {color: black;}
+	to {color: yellow;}
 }
 
 /*aside*/
